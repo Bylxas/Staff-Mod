@@ -20,7 +20,7 @@ AdminMod provides a clean and user-friendly moderation interface directly inside
 
 ## 📦 Requirements
 
-- Minecraft 1.21.1
+- Minecraft 1.21.11
 - Fabric Loader
 - Fabric API
 - Mod Menu (Recommended)
@@ -51,7 +51,7 @@ Available options include:
 
 | Version | Support |
 |----------|----------|
-| Minecraft 1.21.1 | ✔ |
+| Minecraft 1.21.11 | ✔ |
 | Fabric Loader | ✔ |
 | Fabric API | ✔ |
 | Mod Menu | ✔ |
