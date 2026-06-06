@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "adminmod",
+  "version": "1.0.0",
+  "name": "AdminMod",
+  "description": "Client-side moderation mod with GUI-based ban/mute system.",
+  "authors": ["Admin"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.adminmod.client.AdminModClient"
+    ],
+    "modmenu": [
+      "de.adminmod.client.config.AdminModMenuFactory"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=17"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
